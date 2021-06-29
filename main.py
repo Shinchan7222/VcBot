@@ -6,7 +6,6 @@ from config import Config
 import asyncio
 
 
-CHAT=Config.CHAT
 bot = Client(
     "RadioPlayer",
     Config.API_ID,
