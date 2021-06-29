@@ -7,4 +7,5 @@ wheel
 tgintegration
 youtube-dl
 youtube_search
+telethon
 requests
