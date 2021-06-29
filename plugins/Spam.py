@@ -6,7 +6,7 @@ api_id =
 api_hash = 
 token = 
 
-client = TelegramClient("bspam", api_id, api_hash).start(bot_token=token)
+client = TelegramClient("bspam", api_id, api_hash).start(BOT_TOKEN=token)
 
 @client.on(events.NewMessage(incoming=True))
 async def start(event):
