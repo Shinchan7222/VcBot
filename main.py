@@ -3,7 +3,6 @@ import os
 from threading import Thread
 import sys
 from config import Config
-from utils.vc import mp
 import asyncio
 
 
