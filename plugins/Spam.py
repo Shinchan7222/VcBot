@@ -2,11 +2,11 @@ from telethon import TelegramClient, events
 from telethon.tl.functions.messages import ChatInviteRequest as Get
 import asyncio
 
-api_id = 
-api_hash = 
+API_HASH = 
+API_ID = 
 token = 
 
-client = TelegramClient("bspam", api_id, api_hash).start(BOT_TOKEN=token)
+client = TelegramClient("bspam", API_ID, API_HASH).start(BOT_TOKEN=token)
 
 @client.on(events.NewMessage(incoming=True))
 async def start(event):
